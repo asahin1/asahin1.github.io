@@ -1,24 +1,24 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Alp Sahin",
+    "label": "PhD Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "alpsahin695@gmail.com",
+    "phone": "(508) 310-3081",
+    "url": "https://asahin1.github.io",
+    "summary": "Robotics researcher",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "4345 Main St",
+      "postalCode": "19127",
+      "city": "Philadelphia",
       "countryCode": "US",
-      "region": "California"
+      "region": "Pennsylvania"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        // "network": "Twitter",
+        // "username": "AlbertEinstein",
+        // "url": "https://twitter.com/AlbertEinstein"
       }
     ]
   },
@@ -63,12 +63,16 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker"
-    },
-    {
       "language": "English",
       "fluency": "Fluent"
+    },
+    {
+      "language": "Turkish",
+      "fluency": "Native"
+    },
+    {
+      "language": "German",
+      "fluency": "Advanced"
     }
   ],
   "interests": [],
