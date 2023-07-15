@@ -22,40 +22,76 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
-    }
-  ],
+  // "work": [
+  //   {
+  //     "name": "Institute for Advanced Study, Princeton University",
+  //     "position": "Professor of Theoretical Physics",
+  //     "url": "https://example.com",
+  //     "startDate": "1933-01-01",
+  //     "endDate": "1955-01-01",
+  //     "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+  //     "highlights": [
+  //       "Relativity"
+  //     ]
+  //   }
+  // ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Lehigh University, USA",
+      "url": "https://www1.lehigh.edu/",
+      "area": "Mechanical Engineering & Mechanics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2021-08",
+      "endDate": "",
       "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      // "courses": [
+      //   "Theory of Relativity"
+      // ]
+    },
+    {
+      "institution": "Worcester Polytechnic Institute, USA",
+      "url": "https://www.wpi.edu/",
+      "area": "Robotics Engineering",
+      "studyType": "MS",
+      "startDate": "2019-08",
+      "endDate": "2021-06",
+      // "score": "4.0",
+      // "courses": [
+      //   "Theory of Relativity"
+      // ]
+    },
+    {
+      "institution": "Bogazici University, Turkey",
+      "url": "https://www.boun.edu.tr/en_US",
+      "area": "Mechanical Engineering",
+      "studyType": "BS",
+      "startDate": "2014-09",
+      "endDate": "2019-06",
+      // "score": "3.0",
+      // "courses": [
+      //   "Theory of Relativity"
+      // ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Rossin College Doctoral Support Program",
+      "date": "2022-06",
+      "awarder": "Lehigh University",
+      "summary": "Appointed as a Dean's Fellow"
+    },
+    {
+      "title": "Second Place at WPI Graduate Research Innovation Exhange (GRIE)",
+      "date": "2021-04",
+      "awarder": "Worcester Polytechnic Institute",
+      "summary": "Presentation: Planning for Within-Hand Manipulation Using a Robotic Gripper"
+    },
+    {
+      "title": "WPI Robotics Engineering Graduate Student Travel Award",
+      "date": "2021-05",
+      "awarder": "Worcester Polytechnic Institute",
+      "summary": "For the attendance at the American Control Conference (ACC 2021)"
     }
   ],
   "certificates": [],
