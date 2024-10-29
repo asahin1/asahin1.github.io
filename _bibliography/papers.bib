@@ -10,6 +10,7 @@
   number={},
   pages={3507-3512},
   doi={10.23919/ACC50511.2021.9483180},
+  abstract={Relevant and high-quality data are critical to successful development of machine learning applications. For machine learning applications on dynamic systems equipped with a large number of sensors, such as connected vehicles and robots, how to find relevant and high-quality data features in an efficient way is a challenging problem. In this work, we address the problem of feature selection in constrained continuous data acquisition. We propose a feedback-based dynamic feature selection algorithm that efficiently decides on the feature set for data collection from a dynamic system in a step-wise manner. We formulate the sequential feature selection procedure as a Markov Decision Process. The machine learning model performance feedback with an exploration component is used as the reward function in an ϵ-greedy action selection. Our evaluation shows that the proposed feedback-based feature selection algorithm has superior performance over constrained baseline methods and matching performance with unconstrained baseline methods.},
   selected=true
 }
 
@@ -22,6 +23,7 @@
   number={},
   pages={6549-6555},
   doi={10.1109/ICRA48506.2021.9561376},
+  abstract={Attempts to achieve robotic Within-Hand-Manipulation (WIHM) generally utilize either high-DOF robotic hands with elaborate sensing apparatus or multi-arm robotic systems. In prior work we presented a simple robot hand with variable friction robot fingers, which allow a low-complexity approach to within-hand object translation and rotation, though this manipulation was limited to planar actions. In this work we extend the capabilities of this system to 3D manipulation with a novel region-based WIHM planning algorithm and utilizing extrinsic contacts. The ability to modulate finger friction enhances extrinsic dexterity for three-dimensional WIHM, and allows us to operate in the quasi-static level. The region-based planner automatically generates 3D manipulation sequences with a modified A* formulation that navigates the contact regions between the fingers and the object surface to reach desired regions. Central to this method is a set of object-motion primitives (i.e. within-hand sliding, rotation and pivoting), which can easily be achieved via changing contact friction. A wide range of goal regions can be achieved via this approach, which is demonstrated via real robot experiments following a standardized in-hand manipulation benchmarking protocol.},
   selected=true
 }
 
@@ -34,6 +36,7 @@
   primaryClass={cs.RO},
   arxiv={2306.01203},
   code={https://github.com/asahin1/nbh-aug-planning},
+  abstract={Many robotics applications benefit from being able to compute multiple locally optimal paths in a given configuration space. Examples include path planning for of tethered robots with cable-length constraints, systems involving cables, multi-robot topological exploration & coverage, and, congestion reduction for mobile robots navigation without inter-robot coordination. Existing paradigm is to use topological path planning methods that can provide optimal paths from distinct topological classes available in the underlying configuration space. However, these methods usually require non-trivial and non-universal geometrical constructions, which are prohibitively complex or expensive in 3 or higher dimensional configuration spaces with complex topology. Furthermore, topological methods are unable to distinguish between locally optimal paths that belong to the same topological class but are distinct because of genus-zero obstacles in 3D or due to high-cost or high-curvature regions. In this paper we propose an universal and generalized approach to multiple, locally-optimal path planning using the concept of a novel neighborhood-augmented graph, search-based planning in which can compute paths that are topo-geometrically distinct. This approach can find desired number of locally optimal paths in a wider variety of configuration spaces without requiring any complex pre-processing or geometric constructions. Unlike the existing topological methods, resulting optimal paths are not restricted to distinct topological classes, thus making the algorithm applicable to many other problems where locally optimal and geometrically distinct paths are of interest. We demonstrate the use of our algorithm to planning for shortest traversible paths for a tethered robot in 3D with cable-length constraint, and validate the results in simulations and real robot experimentation.},
   selected = true
 }
 
@@ -47,6 +50,7 @@
   pages    = "50",
   month    =  jul,
   year     =  2023,
+  abstract={We consider the problem of multi-robot path planning in a complex, cluttered environment with the aim of reducing overall congestion in the environment, while avoiding any inter-robot communication or coordination. Such limitations may exist due to lack of communication or due to privacy restrictions (for example, autonomous vehicles may not want to share their locations or intents with other vehicles or even to a central server). The key insight that allows us to solve this problem is to stochastically distribute the robots across different routes in the environment by assigning them paths in different topologically distinct classes, so as to lower congestion and the overall travel time for all robots in the environment. We outline the computation of topologically distinct paths in a spatio-temporal configuration space and propose methods for the stochastic assignment of paths to the robots. A fast replanning algorithm and a potential field based controller allow robots to avoid collision with nearby agents while following the assigned path. Our simulation and experiment results show a significant advantage over shortest path following under such a coordination-free setup.},
   selected = true
 }
 
@@ -59,6 +63,7 @@
   year={2021},
   doi={https://doi.org/10.4271/2021-01-0184},
   url={https://doi.org/10.4271/2021-01-0184},
+  abstract={Supervised, unsupervised and active learning techniques can be used to develop prognostics and diagnostics in connected vehicle networks, where a wide variety of sensors are available for data collection. However, constraints placed by the on-board equipment, vehicle network, time, and human resources limit the amount of sensor data and labels for machine learning. When no prior information about the data distribution or domain knowledge is available, it becomes a challenging task to collect limited and relevant data to train a machine learning model matching the desired performance threshold. To tackle this challenge, techniques such as experimental design, feature selection, and active learning can be applied, and the data collection process can be advanced to a closed-loop system where new data collection decisions are made based on the feedback from collected data. In this paper, an iterative design and evaluation procedure is considered to develop and deploy these feedback-based decision-making algorithms. So far, no simulation-based benchmarking frameworks are available for evaluating and testing the performance of these methods in a connected vehicle network setting that can impose the real-world conditions. In this work, we propose a simulation platform that makes use of static datasets to simulate dynamic data collection process and provide comprehensive evaluations of feedback-based dynamic data collection decision-making algorithms. The platform provide means for stepwise input of desired dynamic data collection decisions and delayed return of corresponding data to mimic the real-world data collection procedure. Compliant experimental design, feature selection, and active learning strategies can be used within the framework to determine the data to be collected at each step. We also provide an implementation example of a wrapper-based feature selection algorithm using greedy search and exploration components along with a random feature selector for comparative analysis.},
   issn={0148-7191},
 }
 
@@ -69,7 +74,9 @@
   eprint={2410.00126},
   archivePrefix={arXiv},
   primaryClass={cs.SI},
+  arxiv={2410.00126},
   url={https://arxiv.org/abs/2410.00126},
+  abstract={Resonance is a well-known phenomenon that happens in systems with second order dynamics. In this paper we address the fundamental question of making a network robust to signal being periodically pumped into it at or near a resonant frequency by an adversarial agent with the aim of saturating the network with the signal. Towards this goal, we develop the notion of network vulnerability, which is measured by the expected resonance amplitude on the network under a stochastically modeled adversarial attack. Assuming a second order dynamics model based on the network graph Laplacian matrix and a known stochastic model for the adversarial attack, we propose two methods for minimizing the network vulnerability that leverage the principle of eigenspectrum optimization. We provide extensive numerical results analyzing the effects of both methods.},
   selected=true
 }
 
@@ -83,10 +90,11 @@
   pages={2509-2519},
   keywords={Feature extraction;Data collection;Connected vehicles;Data models;Costs;Vehicle dynamics;Task analysis;Connected vehicles;cyber-physical systems;data management and analytics;ML},
   doi={10.1109/TIV.2023.3314788},
+  abstract={Collecting relevant and high-quality data is critical to machine-learning-based application development in automotive industry. It is highly desired to concentrate the connected vehicle data collection efforts on a set of useful data to avoid irrelevant or redundant data. For a given machine learning (ML) task, without a priori information, it can be challenging to determine what features to collect. In this work, we propose an efficient data collection workflow featuring a loop involving a connected vehicle fleet, a ML algorithm and a feedback-based dynamic feature selection strategy. The feature selection process is embedded in the data collection workflow, therefore it is more efficient than the traditional workflow where feature selection is applied after all data are collected. The proposed workflow reduces data transmission and storage cost. A feature selection algorithm that exploits and explores feature sets using an upper-confidence-bound-based method is designed for the trade-off between collecting known useful data and collecting potentially useful data. Validations are performed on two classification tasks to mimic the connected vehicle data collection: a synthetic problem based on a public ML dataset, and a robot ground surface classification problem with experiment data in a simulated data collection environment. The proposed method is tested against several baseline methods, including collecting all available data before feature selection, collecting random features, and running the data collection procedure episodically with embedded feature selection. Results show that the proposed algorithm in the closed-loop procedure achieves adequate performance with relatively few irrelevant and redundant data.},
   selected=true
 }
 
-@INPROCEEDINGS{10666648,
+@INPROCEEDINGS{sahin2024CCTA,
   author={Sahin, Alp and Brawner, Stephen and Bilsky, Matt and Bhattacharya, Subhrajit},
   booktitle={2024 IEEE Conference on Control Technology and Applications (CCTA)}, 
   title={Real-Time Joystick-based Kinematics Control of a Snake-like Robot with Robustness Near Singular Configurations}, 
@@ -96,6 +104,7 @@
   pages={663-668},
   keywords={Target tracking;Computational modeling;Pipelines;Prototypes;Kinematics;Chatbots;End effectors},
   doi={10.1109/CCTA60707.2024.10666648},
+  abstract={We propose algorithms for controlling an articulated snake-like robot using a 2-axis joystick. The key contributions of the paper are two-fold: i. Development of a pipeline for converting the joystick inputs into Cartesian velocity commands for the robot’s end-effector in a way that is intuitive to a user, and, ii. Development of an optimization-based controller that generates the necessary joint velocities to track the target Cartesian velocities as closely as possible even at or near singular configurations of the robot. We describe the proposed framework and outline its technical/mathematical details. We also demonstrate the effectiveness of the proposed approach through Gazebo simulations as well as real-robot experiments using a prototype of a snake-like robot called FLX BOT.},
   selected=true
 }
 
