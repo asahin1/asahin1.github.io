@@ -27,7 +27,7 @@
   selected=true
 }
 
-@misc{sahin2023arxiv,
+misc{sahin2023arxiv,
   title={Topo-Geometrically Distinct Path Computation using Neighborhood-augmented Graph, and its Application to Path Planning for a Tethered Robot in 3D}, 
   author={Alp Sahin and Subhrajit Bhattacharya},
   year={2023},
@@ -39,6 +39,22 @@
   abstract={Many robotics applications benefit from being able to compute multiple locally optimal paths in a given configuration space. Examples include path planning for of tethered robots with cable-length constraints, systems involving cables, multi-robot topological exploration & coverage, and, congestion reduction for mobile robots navigation without inter-robot coordination. Existing paradigm is to use topological path planning methods that can provide optimal paths from distinct topological classes available in the underlying configuration space. However, these methods usually require non-trivial and non-universal geometrical constructions, which are prohibitively complex or expensive in 3 or higher dimensional configuration spaces with complex topology. Furthermore, topological methods are unable to distinguish between locally optimal paths that belong to the same topological class but are distinct because of genus-zero obstacles in 3D or due to high-cost or high-curvature regions. In this paper we propose an universal and generalized approach to multiple, locally-optimal path planning using the concept of a novel neighborhood-augmented graph, search-based planning in which can compute paths that are topo-geometrically distinct. This approach can find desired number of locally optimal paths in a wider variety of configuration spaces without requiring any complex pre-processing or geometric constructions. Unlike the existing topological methods, resulting optimal paths are not restricted to distinct topological classes, thus making the algorithm applicable to many other problems where locally optimal and geometrically distinct paths are of interest. We demonstrate the use of our algorithm to planning for shortest traversible paths for a tethered robot in 3D with cable-length constraint, and validate the results in simulations and real robot experimentation.},
   selected = true
 }
+
+@ARTICLE{sahin2024TRO,
+  author={Sahin, Alp and Bhattacharya, Subhrajit},
+  journal={IEEE Transactions on Robotics}, 
+  title={Topo-Geometrically Distinct Path Computation Using Neighborhood-Augmented Graph, and Its Application to Path Planning for a Tethered Robot in 3D}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-20},
+  abstract={Many robotics applications benefit from being able to compute multiple geodesic paths in a given configuration space. Existing paradigm is to use topological path planning, which can compute optimal paths in distinct topological classes. However, these methods usually require non-trivial geometric constructions which are prohibitively expensive in 3D, and are unable to distinguish between distinct topologically equivalent geodesics that are created due to high-cost/curvature regions or prismatic obstacles in 3D. In this paper, we propose an approach to compute k geodesic paths using the concept of a novel neighborhood-augmented graph, on which graph search algorithms can compute multiple optimal paths that are topo-geometrically distinct. Our approach does not require complex geometric constructions, and the resulting paths are not restricted to distinct topological classes, making the algorithm suitable for problems where finding and distinguishing between geodesic paths are of interest. We demonstrate the application of our algorithm to planning shortest traversible paths for a tethered robot in 3D with cable-length constraint.},
+  code={https://github.com/asahin1/nbh-aug-planning},
+  keywords={Graph search-based path planning;motion and path planning;multi path planning;tethered robot},
+  doi={10.1109/TRO.2024.3492386},
+  selected=true
+}
+
 
 @ARTICLE{wang2023JIRS,
   title    = "Coordination-free Multi-robot Path Planning for Congestion
