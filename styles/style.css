@@ -226,6 +226,21 @@ footer {
     nav a {
         margin: 0;
     }
+
+    .project-card {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        max-width: 100%;
+        gap: 1.5rem;
+        box-sizing: border-box;
+    }
+
+    .project-info,
+    .project-media {
+        width: 100%;
+        max-width: 100%;
+    }
 }
 
 .pub-container {
