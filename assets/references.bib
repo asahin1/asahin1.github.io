@@ -1,0 +1,115 @@
+@article{sahin2025topogeometrically,
+  title = {Topo-{{Geometrically Distinct Path Computation Using Neighborhood-Augmented Graph}}, and {{Its Application}} to {{Path Planning}} for a {{Tethered Robot}} in 3-{{D}}},
+  author = {Sahin, Alp and Bhattacharya, Subhrajit},
+  year = 2025,
+  journal = {IEEE Transactions on Robotics},
+  volume = {41},
+  pages = {20--41},
+  issn = {1941-0468},
+  doi = {10.1109/TRO.2024.3492386},
+  urldate = {2025-10-22},
+  abstract = {Many robotics applications benefit from being able to compute multiple geodesic paths in a given configuration space. Existing paradigm is to use topological path planning, which can compute optimal paths in distinct topological classes. However, these methods usually require nontrivial geometric constructions, which are prohibitively expensive in 3-D, and are unable to distinguish between distinct topologically equivalent geodesics that are created due to high-cost/curvature regions or prismatic obstacles in 3-D. In this article, we propose an approach to compute k geodesic paths using the concept of a novel neighborhood-augmented graph, on which graph search algorithms can compute multiple optimal paths that are topo-geometrically distinct. Our approach does not require complex geometric constructions, and the resulting paths are not restricted to distinct topological classes, making the algorithm suitable for problems where finding and distinguishing between geodesic paths are of interest. We demonstrate the application of our algorithm to planning shortest traversible paths for a tethered robot in 3-D with cable-length constraint.},
+  keywords = {Costs,Graph search-based path planning,motion and path planning,multipath planning,Navigation,Path planning,Planning,Robot sensing systems,Robots,Search problems,tethered robot,Three-dimensional displays,Topology,Tracking}
+}
+
+@inproceedings{sahinFeedbackBasedDynamicFeature2021,
+  title = {Feedback-{{Based Dynamic Feature Selection}} for {{Constrained Continuous Data Acquisition}}},
+  booktitle = {2021 {{American Control Conference}} ({{ACC}})},
+  author = {Sahin, Alp and Zeng, Xiangrui},
+  year = 2021,
+  month = may,
+  pages = {3507--3512},
+  issn = {2378-5861},
+  doi = {10.23919/ACC50511.2021.9483180},
+  urldate = {2025-10-22},
+  abstract = {Relevant and high-quality data are critical to successful development of machine learning applications. For machine learning applications on dynamic systems equipped with a large number of sensors, such as connected vehicles and robots, how to find relevant and high-quality data features in an efficient way is a challenging problem. In this work, we address the problem of feature selection in constrained continuous data acquisition. We propose a feedback-based dynamic feature selection algorithm that efficiently decides on the feature set for data collection from a dynamic system in a step-wise manner. We formulate the sequential feature selection procedure as a Markov Decision Process. The machine learning model performance feedback with an exploration component is used as the reward function in an {$\epsilon$}-greedy action selection. Our evaluation shows that the proposed feedback-based feature selection algorithm has superior performance over constrained baseline methods and matching performance with unconstrained baseline methods.},
+  keywords = {Data acquisition,Feature extraction,Heuristic algorithms,Machine learning,Machine learning algorithms,Markov processes,Sensor phenomena and characterization}
+}
+
+@techreport{sahinFrameworkBenchmarkingFeedbackBased2021,
+  title = {A {{Framework}} for {{Benchmarking Feedback-Based Dynamic Data Collection Methods}} in {{Connected Vehicle Networks}}},
+  author = {Sahin, Alp and Zeng, Xiangrui},
+  year = 2021,
+  month = apr,
+  number = {2021-01-0184},
+  institution = {SAE Technical Paper},
+  issn = {0148-7191, 2688-3627},
+  doi = {10.4271/2021-01-0184},
+  urldate = {2025-10-22},
+  abstract = {Supervised, unsupervised and active learning techniques can be used to develop prognostics and diagnostics in connected vehicle networks, where a wide variety of sensors are available for data collection. However, constraints placed by the on-board equipment, vehicle network, time, and human resourc}
+}
+
+@inproceedings{sahinRealTimeJoystickbasedKinematics2024,
+  title = {Real-{{Time Joystick-based Kinematics Control}} of a {{Snake-like Robot}} with {{Robustness Near Singular Configurations}}},
+  booktitle = {2024 {{IEEE Conference}} on {{Control Technology}} and {{Applications}} ({{CCTA}})},
+  author = {Sahin, Alp and Brawner, Stephen and Bilsky, Matt and Bhattacharya, Subhrajit},
+  year = 2024,
+  month = aug,
+  pages = {663--668},
+  issn = {2768-0770},
+  doi = {10.1109/CCTA60707.2024.10666648},
+  urldate = {2025-10-22},
+  abstract = {We propose algorithms for controlling an articulated snake-like robot using a 2-axis joystick. The key contributions of the paper are two-fold: i. Development of a pipeline for converting the joystick inputs into Cartesian velocity commands for the robot's end-effector in a way that is intuitive to a user, and, ii. Development of an optimization-based controller that generates the necessary joint velocities to track the target Cartesian velocities as closely as possible even at or near singular configurations of the robot. We describe the proposed framework and outline its technical/mathematical details. We also demonstrate the effectiveness of the proposed approach through Gazebo simulations as well as real-robot experiments using a prototype of a snake-like robot called FLX BOT.},
+  keywords = {Chatbots,Computational modeling,End effectors,Kinematics,Pipelines,Prototypes,Target tracking}
+}
+
+@inproceedings{sahinRegionBasedPlanning3D2021,
+  title = {Region-{{Based Planning}} for {{3D Within-Hand-Manipulation}} via {{Variable Friction Robot Fingers}} and {{Extrinsic Contacts}}},
+  booktitle = {2021 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Sahin, Alp and Spiers, Adam J. and Calli, Berk},
+  year = 2021,
+  month = may,
+  pages = {6549--6555},
+  issn = {2577-087X},
+  doi = {10.1109/ICRA48506.2021.9561376},
+  urldate = {2025-10-22},
+  abstract = {Attempts to achieve robotic Within-Hand-Manipulation (WIHM) generally utilize either high-DOF robotic hands with elaborate sensing apparatus or multi-arm robotic systems. In prior work we presented a simple robot hand with variable friction robot fingers, which allow a low-complexity approach to within-hand object translation and rotation, though this manipulation was limited to planar actions. In this work we extend the capabilities of this system to 3D manipulation with a novel region-based WIHM planning algorithm and utilizing extrinsic contacts. The ability to modulate finger friction enhances extrinsic dexterity for three-dimensional WIHM, and allows us to operate in the quasi-static level. The region-based planner automatically generates 3D manipulation sequences with a modified A* formulation that navigates the contact regions between the fingers and the object surface to reach desired regions. Central to this method is a set of object-motion primitives (i.e. within-hand sliding, rotation and pivoting), which can easily be achieved via changing contact friction. A wide range of goal regions can be achieved via this approach, which is demonstrated via real robot experiments following a standardized in-hand manipulation benchmarking protocol.},
+  keywords = {Benchmark testing,Friction,Planning,Protocols,Robot sensing systems,Search problems,Three-dimensional displays}
+}
+
+@article{sahinSpectrumOptimizationDynamic2025,
+  title = {Spectrum Optimization of Dynamic Networks for Reduction of Vulnerability against Adversarial Resonance Attacks},
+  author = {Sahin, Alp and Kozachuk, Nicolas and Blum, Rick S. and Bhattacharya, Subhrajit},
+  year = 2025,
+  month = may,
+  journal = {Frontiers in Complex Systems},
+  volume = {3},
+  publisher = {Frontiers},
+  issn = {2813-6187},
+  doi = {10.3389/fcpxs.2025.1575210},
+  urldate = {2025-10-22},
+  abstract = {Resonance is a well-known phenomenon that happens in systems with second order dynamics. In this paper, we address the fundamental question of making a network robust to signal being periodically pumped into it at or near a resonant frequency by an adversarial agent with the aim of saturating the network with the signal. Toward this goal, we develop the notion of network vulnerability, which is measured by the expected resonance amplitude on the network under a stochastically modeled adversarial attack. Assuming a second order dynamics model based on the network graph Laplacian and a known stochastic model for the adversarial attack, we propose two methods for minimizing the network vulnerability--one through direct optimization of the spectrum of the network graph, and another through optimization of an auxiliary network graph attached to the main network. We provide theoretical foundations for these methods as well as extensive numerical results analyzing the effectiveness of both methods in reducing the network vulnerability.},
+  keywords = {algebraic graph theory 1,graph optimization,graph signal control,network vulnerability reduction,second-order signal dynamics on graphs}
+}
+
+@article{wangCoordinationfreeMultirobotPath2023,
+  title = {Coordination-Free {{Multi-robot Path Planning}} for {{Congestion Reduction Using Topological Reasoning}}},
+  author = {Wang, Xiaolong and Sahin, Alp and Bhattacharya, Subhrajit},
+  year = 2023,
+  month = jul,
+  journal = {Journal of Intelligent \& Robotic Systems},
+  volume = {108},
+  number = {3},
+  pages = {50},
+  issn = {1573-0409},
+  doi = {10.1007/s10846-023-01878-3},
+  urldate = {2025-10-22},
+  abstract = {We consider the problem of multi-robot path planning in a complex, cluttered environment with the aim of reducing overall congestion in the environment, while avoiding any inter-robot communication or coordination. Such limitations may exist due to lack of communication or due to privacy restrictions (for example, autonomous vehicles may not want to share their locations or intents with other vehicles or even to a central server). The key insight that allows us to solve this problem is to stochastically distribute the robots across different routes in the environment by assigning them paths in different topologically distinct classes, so as to lower congestion and the overall travel time for all robots in the environment. We outline the computation of topologically distinct paths in a spatio-temporal configuration space and propose methods for the stochastic assignment of paths to the robots. A fast replanning algorithm and a potential field based controller allow robots to avoid collision with nearby agents while following the assigned path. Our simulation and experiment results show a significant advantage over shortest path following under such a coordination-free setup.},
+  keywords = {Multi-Robot motion planning,Privacy-aware planning,Topological path planning}
+}
+
+@article{wangEfficientDataCollection2024,
+  title = {Efficient {{Data Collection}} for {{Connected Vehicles With Embedded Feedback-Based Dynamic Feature Selection}}},
+  author = {Wang, Zhuo and Sahin, Alp and Zeng, Xiangrui},
+  year = 2024,
+  month = jan,
+  journal = {IEEE Transactions on Intelligent Vehicles},
+  volume = {9},
+  number = {1},
+  pages = {2509--2519},
+  issn = {2379-8904},
+  doi = {10.1109/TIV.2023.3314788},
+  urldate = {2025-10-22},
+  abstract = {Collecting relevant and high-quality data is critical to machine-learning-based application development in automotive industry. It is highly desired to concentrate the connected vehicle data collection efforts on a set of useful data to avoid irrelevant or redundant data. For a given machine learning (ML) task, without a priori information, it can be challenging to determine what features to collect. In this work, we propose an efficient data collection workflow featuring a loop involving a connected vehicle fleet, a ML algorithm and a feedback-based dynamic feature selection strategy. The feature selection process is embedded in the data collection workflow, therefore it is more efficient than the traditional workflow where feature selection is applied after all data are collected. The proposed workflow reduces data transmission and storage cost. A feature selection algorithm that exploits and explores feature sets using an upper-confidence-bound-based method is designed for the trade-off between collecting known useful data and collecting potentially useful data. Validations are performed on two classification tasks to mimic the connected vehicle data collection: a synthetic problem based on a public ML dataset, and a robot ground surface classification problem with experiment data in a simulated data collection environment. The proposed method is tested against several baseline methods, including collecting all available data before feature selection, collecting random features, and running the data collection procedure episodically with embedded feature selection. Results show that the proposed algorithm in the closed-loop procedure achieves adequate performance with relatively few irrelevant and redundant data.},
+  keywords = {Closed loop systems,Connected vehicles,cyber-physical systems,Cyber-physical systems,Data analysis,Data collection,data management and analytics,Feature extraction,Machine learning,ML}
+}

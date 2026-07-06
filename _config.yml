@@ -1,0 +1,25 @@
+title: Alp Sahin
+permalink: /:title/
+
+include:
+  - assets
+  - styles
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .github
+  - README.md
+
+plugins:
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  sort_by: year
+  order: descending
+  group_by: type
+  
+  bibliography_template: bib
+
+  source: ./assets

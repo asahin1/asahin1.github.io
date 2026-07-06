@@ -1,0 +1,28 @@
+---
+---
+{% capture authors %}
+  {% for author in entry.author_array %}
+    {{ author.last }}, {{ author.first | slice: 0 }}.{% if forloop.last == false %}, & {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+<span class="author-list">
+  {{ authors | replace: "Sahin, A.", "<strong>Sahin, A.</strong>" }}
+</span>
+
+({{ entry.year }}).
+
+<span class="title">{{ entry.title }}</span>. 
+<i>{{ entry.journal }}</i>{% if entry.volume %}, <i>{{ entry.volume }}</i>{% endif %}{% if entry.pages %}, {{ entry.pages }}{% endif %}.
+
+{% if entry.doi %}
+  <span class="pub-links">
+    <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener noreferrer">{{ entry.doi }}</a>.
+  </span>
+{% endif %}
+
+{% if entry.pdf %}
+  <span class="pub-links">
+    <a href="/assets/{{ entry.pdf }}" target="_blank">[Download PDF]</a>
+  </span>
+{% endif %}

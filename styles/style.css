@@ -200,3 +200,49 @@ footer {
         padding-bottom: 1rem;
     }
 }
+
+.pub-container {
+    max-width: 850px;      /* Restricts the width so long citations are easy to read */
+    margin: 40px auto;     /* Centers the container and adds space top/bottom */
+    padding: 0 20px;       /* Keeps content from touching the edges on mobile screens */
+}
+
+.pub-container h1 {
+    font-size: 2.2rem;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.pub-container hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin-bottom: 30px;
+}
+
+.pub-container ol.bibliography li {
+    margin-bottom: 2rem;
+    line-height: 1.7;
+    font-size: 1.05rem;
+    color: #404040;
+}
+
+.pub-container .pub-links a {
+    color: #0066cc !important;
+    text-decoration: none !important;
+    font-weight: 500;
+    border-bottom: 1px dashed #0066cc !important;
+    transition: all 0.15s ease-in-out;
+}
+
+.pub-container .pub-links a:hover {
+    color: #004499 !important;
+    border-bottom: 1px solid #004499 !important;
+    background-color: #f0f6ff !important;
+    border-radius: 4px;
+}
+
+.author-list strong {
+    font-weight: 700 !important;
+    color: #111111;
+}

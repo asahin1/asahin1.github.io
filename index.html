@@ -1,108 +1,87 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Alp Sahin</title>
-    <link href="styles/style.css" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  </head>
-  <body>
-    <header>
-      <p>Alp Sahin</p>
-      <nav class="menu">
-          <a href="index.html">Home</a>
-          <a href="src/publications.html">Publications</a>
-          <a href="assets/alp_sahin_cv.pdf" target="_blank" rel="noopener noreferrer">CV (PDF)</a>
-      </nav>
-    </header>
-    <main>
-      <div class="page-container">
-        <aside class="sidebar">
-          <img src="assets/profile_photo.jpg" alt="Profile Photo" class="sidebar-photo"/>
-          <p>PhD Student in AIRLab @ <a href="https://www2.lehigh.edu/" target="_blank" rel="noopener">Lehigh University</a></p>
-          <ul class="social-links">
-            <li><a href="mailto:as.alpsahin@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a></li>
-            <li><a href="https://www.linkedin.com/in/sahinalp/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
-            <li><a href="https://github.com/asahin1" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Github</a></li>
-            <li><a href="https://scholar.google.com/citations?user=JZOzy3sAAAAJ&hl=en" target="_blank" rel="noopener"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a></li>
-          </ul>
-        </aside>
-        <article class="main-content">
-          <div class="summary">
-            <h1>Alp Sahin</h1>
-            <p>I am Alp, a PhD student in the Mechanical Engineering & Mechanics Department at Lehigh University. Currently, I am working at the Autonomous and Intelligent Robotics Laboratory (<a href="https://wordpress.lehigh.edu/robotics/" target="_blank" rel="noopener">AIRLab</a>) with Professor <a href="https://www.lehigh.edu/~sub216/" target="_blank" rel="noopener">Subhrajit Bhattacharya</a>. Before I joined Lehigh, I was a Master’s student in the Robotics Engineering Department at Worcester Polytechnic Institute (WPI). While at WPI, I worked at the Manipulation & Environmental Robotics (<a href="https://wp.wpi.edu/merlab/" target="_blank" rel="noopener">MER Lab</a>) with Professor Berk Calli on planning methods for in-hand manipulation.</p>
-          </div>
-          <div class="projects-container">
-            <h1>Research Highlights</h1>
-            <!-- ################################### -->
-            <div class="project-card">
-              <div class="project-media">
-                <img src="assets/nbh_aug_search.gif" alt="Animation demonstrating neighborhood augmented search">
-              </div>
-              <div class="project-info">
-                <h3>Multi-Path Planning using Neighborhood-Augmented Graphs</h3>
-                <p>Under construction...</p>
-                [<a href="https://ieeexplore.ieee.org/document/10746348" target="_blank" rel="noopener">Paper</a>]
-                [<a href="https://github.com/asahin1/nbh-aug-planning" target="_blank" rel="noopener">Code</a>]
-              </div>
-            </div>
-            <!-- ################################### -->
-            <div class="project-card">
-              <div class="project-media">
-                <img src="assets/eigspec_hist.jpg" alt="Eigenspectrum histograms before and after optimization">
-              </div>
-              <div class="project-info">
-                <h3>Optimization of Network Weights against Adversarial Resonance Attacks</h3>
-                <p>Under construction...</p>
-                [<a href="https://www.frontiersin.org/journals/complex-systems/articles/10.3389/fcpxs.2025.1575210/full" target="_blank" rel="noopener">Paper</a>]
-              </div>
-            </div>
-            <!-- ################################### -->
-            <div class="project-card">
-              <div class="project-media">
-                <img src="assets/contact_region_planning.png" alt="Overview of contact region planning">
-              </div>
-              <div class="project-info">
-                <h3>Contact Region Planning for In-Hand Manipulation</h3>
-                <p>Under construction...</p>
-                [<a href="https://ieeexplore.ieee.org/abstract/document/9561376" target="_blank" rel="noopener">Paper</a>]
-                [<a href="https://github.com/asahin1/wihm-variable-friction" target="_blank" rel="noopener">Code (Simulation)</a>]
-                [<a href="https://github.com/asahin1/reg-based-planning" target="_blank" rel="noopener">Code (Planner)</a>]
-              </div>
-            </div>
-            <!-- ################################### -->
-            <div class="project-card">
-              <div class="project-media">
-                <img src="assets/flxbot_ctrl_overview.png" alt="Overview of optimization-based controller">
-              </div>
-              <div class="project-info">
-                <h3>Optimization-based Control of a Snake-like Robot</h3>
-                <p>Under construction...</p>
-                [<a href="https://ieeexplore.ieee.org/abstract/document/10666648" target="_blank" rel="noopener">Paper</a>]
-              </div>
-            </div>
-            <!-- ################################### -->
-            <div class="project-card">
-              <div class="project-media">
-                <img src="assets/congestion_reduction.png" alt="Spatio-temporal space illustration">
-              </div>
-              <div class="project-info">
-                <h3>Coordination-free Multi-Robot Planning for Congestion Reduction</h3>
-                <p>Under construction...</p>
-                [<a href="https://link.springer.com/article/10.1007/s10846-023-01878-3" target="_blank" rel="noopener">Paper</a>]
-              </div>
-            </div>
-            <!-- ################################### -->
-          </div>
-        </article>
+---
+layout: default
+title: Home
+---
+<div class="page-container">
+  <aside class="sidebar">
+    <img src="assets/profile_photo.jpg" alt="Profile Photo" class="sidebar-photo"/>
+    <p>PhD Student in AIRLab @ <a href="https://www2.lehigh.edu/" target="_blank" rel="noopener">Lehigh University</a></p>
+    <ul class="social-links">
+      <li><a href="mailto:as.alpsahin@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a></li>
+      <li><a href="https://www.linkedin.com/in/sahinalp/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+      <li><a href="https://github.com/asahin1" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Github</a></li>
+      <li><a href="https://scholar.google.com/citations?user=JZOzy3sAAAAJ&hl=en" target="_blank" rel="noopener"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a></li>
+    </ul>
+  </aside>
+  <article class="main-content">
+    <div class="summary">
+      <h1>Alp Sahin</h1>
+      <p>I am Alp, a PhD student in the Mechanical Engineering & Mechanics Department at Lehigh University,  working at the Autonomous and Intelligent Robotics Laboratory (<a href="https://wordpress.lehigh.edu/robotics/" target="_blank" rel="noopener">AIRLab</a>) with Professor <a href="https://www.lehigh.edu/~sub216/" target="_blank" rel="noopener">Subhrajit Bhattacharya</a>. Before I joined Lehigh, I was a Master’s student in the Robotics Engineering Department at Worcester Polytechnic Institute (WPI). While at WPI, I worked at the Manipulation & Environmental Robotics (<a href="https://wp.wpi.edu/merlab/" target="_blank" rel="noopener">MER Lab</a>) with Professor Berk Calli on search-based planning algorithms for in-hand manipulation.</p>
+      <p>
+        My current research interests lie at the intersection of search- and optimization-based methods for combinatorial problems in motion planning. I develop algorithms addressing problems in multi-robot and tethered robot systems, as well as robotic manipulation.
+      </p>
+    </div>
+    <div class="projects-container">
+      <h1>Research Highlights</h1>
+      <!-- ################################### -->
+      <div class="project-card">
+        <div class="project-media">
+          <img src="assets/nbh_aug_search.gif" alt="Animation demonstrating neighborhood augmented search">
+        </div>
+        <div class="project-info">
+          <h3>Multi-Path Planning using Neighborhood-Augmented Graphs</h3>
+          <p>Robotics problems involving multi-robot teams and tethered robots require computation of multiple locally optimal paths in a configuration space. In this work, we utilize the notion of path neighborhoods to develop a search-based algorithm that plans for distinct paths. As opposed to the existing topological path planners, our algorithm can capture distinct paths even when they belong to the same homotopy class.</p>
+          [<a href="https://ieeexplore.ieee.org/document/10746348" target="_blank" rel="noopener">Paper</a>]
+          [<a href="https://github.com/asahin1/nbh-aug-planning" target="_blank" rel="noopener">Code</a>]
+        </div>
       </div>
-    </main>
-    <footer>
-      <p>&copy; 2026 Alp Sahin</p>
-    </footer>
-  </body>
-</html>
+      <!-- ################################### -->
+      <div class="project-card">
+        <div class="project-media">
+          <img src="assets/eigspec_hist.jpg" alt="Eigenspectrum histograms before and after optimization">
+        </div>
+        <div class="project-info">
+          <h3>Optimization of Network Weights against Adversarial Resonance Attacks</h3>
+          <p>An adversarial agent capable of injecting periodic signals into a network can perform "resonance attacks", aiming to drive the amplitude beyond the failure limits of the network. In this work, we explore two ways to mitigate such attacks: (1) adjusting the weights of the network edges, (2) attaching an auxiliary network that absorbs the excess energy. Assuming an adversary that stochastically chooses the attack frequency based on the network properties, our optimization framework minimizes the expected steady-state amplitude.</p>
+          [<a href="https://www.frontiersin.org/journals/complex-systems/articles/10.3389/fcpxs.2025.1575210/full" target="_blank" rel="noopener">Paper</a>]
+        </div>
+      </div>
+      <!-- ################################### -->
+      <div class="project-card">
+        <div class="project-media">
+          <img src="assets/contact_region_planning.png" alt="Overview of contact region planning">
+        </div>
+        <div class="project-info">
+          <h3>Contact Region Planning for In-Hand Manipulation</h3>
+          <p>In-hand manipulation capabilities allow robots to operate with tools in confined spaces and with minimum energy consumption. This work features a real-robot setup consisting of a manipulator arm and a variable-friction gripper, that can perform key manipulation primitives such as controlled sliding, rotation, prehensile pushing, and pivoting. We develop a search-based algorithm that plans for a sequence of primitives to manipulate objects into target grasp configurations within hand.</p>
+          [<a href="https://ieeexplore.ieee.org/abstract/document/9561376" target="_blank" rel="noopener">Paper</a>]
+          [<a href="https://github.com/asahin1/wihm-variable-friction" target="_blank" rel="noopener">Code (Simulation)</a>]
+          [<a href="https://github.com/asahin1/reg-based-planning" target="_blank" rel="noopener">Code (Planner)</a>]
+        </div>
+      </div>
+      <!-- ################################### -->
+      <div class="project-card">
+        <div class="project-media">
+          <img src="assets/flxbot_ctrl_overview.png" alt="Overview of optimization-based controller">
+        </div>
+        <div class="project-info">
+          <h3>Optimization-based Control of a Snake-like Robot</h3>
+          <p>In this work, we develop an intuitive translation of user intent (joystick inputs) into Cartesian velocity targets for the end-effector of a snake-like inspection robot. Observing that the inspection tasks require the robot to frequently operate around its singularities, we present an optimization-based controller to recover from singular configurations, while complying with user inputs.</p>
+          [<a href="https://ieeexplore.ieee.org/abstract/document/10666648" target="_blank" rel="noopener">Paper</a>]
+        </div>
+      </div>
+      <!-- ################################### -->
+      <div class="project-card">
+        <div class="project-media">
+          <img src="assets/congestion_reduction.png" alt="Spatio-temporal space illustration">
+        </div>
+        <div class="project-info">
+          <h3>Coordination-free Multi-Robot Planning for Congestion Reduction</h3>
+          <p>Many multi-agent systems operate under communication restrictions preventing high-level coordination. One example is autonomous vehicles that do not share navigation data due privacy concerns. In this work, we develop a decentralized path planning algorithm that (1) computes multiple routes and estimates the traffic density along each, (2) stochastically assigns the vehicle to a route to minimize the risk of congestion.</p>
+          [<a href="https://link.springer.com/article/10.1007/s10846-023-01878-3" target="_blank" rel="noopener">Paper</a>]
+        </div>
+      </div>
+      <!-- ################################### -->
+    </div>
+  </article>
+</div>
