@@ -201,6 +201,33 @@ footer {
     }
 }
 
+@media (max-width: 450px) {
+    header {
+        height: auto;
+        min-height: fit-content;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        padding: 1.5rem 1rem;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+    }
+
+    nav a {
+        margin: 0;
+    }
+}
+
 .pub-container {
     max-width: 850px;      /* Restricts the width so long citations are easy to read */
     margin: 40px auto;     /* Centers the container and adds space top/bottom */
