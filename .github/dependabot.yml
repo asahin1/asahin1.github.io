@@ -1,0 +1,15 @@
+version: 2
+updates:
+  # 1. Keep Ruby Gems (Jekyll, jekyll-scholar, etc.) updated
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly" # Checks for updates once a week
+    open-pull-requests-limit: 5
+
+  # 2. Keep GitHub Actions workflows updated safely
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 3
