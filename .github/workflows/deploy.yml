@@ -27,7 +27,7 @@ jobs:
           bundler-cache: true # Runs bundle install automatically
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v6
 
       - name: Build Site with Jekyll
         run: bundle exec jekyll build
