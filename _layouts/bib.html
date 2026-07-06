@@ -12,8 +12,18 @@
 
 ({{ entry.year }}).
 
-<span class="title">{{ entry.title }}</span>. 
-<i>{{ entry.journal }}</i>{% if entry.volume %}, <i>{{ entry.volume }}</i>{% endif %}{% if entry.pages %}, {{ entry.pages }}{% endif %}.
+<span class="title">{{ entry.title }}</span>.
+<span class="venue-info">
+  {% if entry.type == "article" %}
+  <i>{{ entry.journal }}</i>{% if entry.volume %}, <i>{{ entry.volume }}</i>{% endif %}{% if entry.pages %}, {{ entry.pages }}{% endif %}.
+  {% elsif entry.type == "inproceedings" or entry.type =="conference" %}
+  In <i>{{ entry.booktitle }}</i>{% if entry.pages %}, (pp. {{ entry.pages }}){% endif %}.
+  {% elsif entry.type == "techreport" %}
+  Technical Report{% if entry.number %} No. {{ entry.number }}{% endif %}, {{ entry.institution | default: entry.publisher }}.
+  {% else %}
+  <i>{{ entry.journal | default: entry.booktitle | default: entry.institution | default: entry.publisher }}</i>.
+  {% endif %}
+</span>
 
 {% if entry.doi %}
   <span class="pub-links">
